@@ -17,7 +17,7 @@ fn main(){
     println!("First User choise: {}",first_user);
     println!("First User choise: {}",second_user);
     
-    if (first_user == second_user) {
+    if first_user == second_user {
         println!("It's a tie!");
     }
 
@@ -30,7 +30,7 @@ fn main(){
     else if (first_user == 1 && second_user == 3) || (second_user == 1 && first_user == 2) {
         println!("First player chossie is: {}",first_user);
         println!("Second player chossie is: {}",second_user);
-        println!("First player Win, And u r chossie is: ",first_user);
+        println!("First player Win, And u r chossie is: {}",first_user);
     }
     else if (first_user == 1 && second_user == 4) || (first_user == 4 && second_user == 1) {
         println!("First player chossie is: {}",first_user);
