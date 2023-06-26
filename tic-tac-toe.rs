@@ -24,33 +24,33 @@ fn main(){
     if (first_user == 1 && second_user == 2) || (first_user == 2 && second_user == 1) {
         println!("First player choice is: {}",first_user);
         println!("Second player choice is: {}",second_user);
-        println!("Second player Win, And u r choice is: {} ",second_user);
+        println!("Second player Win, And your choice is: {} ",second_user);
     }
 
     else if (first_user == 1 && second_user == 3) || (second_user == 1 && first_user == 2) {
         println!("First player choice is: {}",first_user);
         println!("Second player choice is: {}",second_user);
-        println!("First player Win, And u r choice is: {}",first_user);
+        println!("First player Win, And your choice is: {}",first_user);
     }
     else if (first_user == 1 && second_user == 4) || (first_user == 4 && second_user == 1) {
         println!("First player choice is: {}",first_user);
         println!("Second player choice is: {}",second_user);
-        println!("First player Win, And u r choice is: {}",first_user);
+        println!("First player Win, And your choice is: {}",first_user);
     }
     else if (first_user == 2 && second_user == 3) || (first_user == 3 && second_user == 2) {
         println!("First player choice is: {}",first_user);
         println!("Second player choice is: {}",second_user);
-        println!("Second player Win, And u r choice is: {} ",second_user);
+        println!("Second player Win, And your choice is: {} ",second_user);
     }
     else if (first_user == 2 && second_user == 4) || (first_user == 4 && second_user == 2) {
         println!("First player choice is: {}",first_user);
         println!("Second player choice is: {}",second_user);
-        println!("Second player Win, And u r choice is: {} ",second_user);
+        println!("Second player Win, And your choice is: {} ",second_user);
     }
     else if (first_user == 3 && second_user == 4) || (first_user == 4 && second_user == 3) {
         println!("First player choice is: {}",first_user);
         println!("Second player choice is: {}",second_user);
-        println!("Second player Win, And u r choice is: {} ",second_user);
+        println!("Second player Win, And your choice is: {} ",second_user);
     }
    } 
 
